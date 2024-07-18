@@ -1,0 +1,94 @@
+.back{
+    height: 100%;
+    width: 100%;
+    background-color: #00000090;
+    position: absolute;
+    top: 100px;
+    z-index: 99;
+    
+}
+.log{
+    display: flex;
+}
+.log img{
+    position: absolute;
+    right: 0;
+    top:5px;
+}
+.login-pop{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+.log h2{
+    font-size: 30px ;
+    position: absolute;
+    top: 40px ;
+    left: 200px;
+    color: #000;
+}
+input{
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 10px;
+    height: 30px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: black;
+}
+.pop-inp{
+    padding: 0 20px;
+}
+.login-pop button{
+    width: 74%;
+     border: none;
+     padding: 10px;
+     border-radius: 4px;
+     color: white;
+     background-color: green;
+     font-size: 15px;
+     cursor: pointer;
+     margin-left: 60px;
+     margin-top: 15px;
+}
+.con{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.con input{
+    margin-left: 10px;
+    width: 20px;
+}
+.con p{
+    font-size: 14px;
+    margin-top: 12px;
+}
+.con span{
+    margin-left: 60px;
+}
+.a1{
+    margin-left: 60px;
+}
+.a2{
+    color: green;
+    cursor: pointer;
+}
+.b1{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.b2{
+    color: green;
+    cursor: progress;
+}

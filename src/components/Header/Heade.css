@@ -1,0 +1,32 @@
+.header-conte{
+  height:100vh;
+  background: url("./pexels-naimbic-2291344.jpg") no-repeat;
+  background-size: cover ;
+  background-position: center;
+  justify-content: center;
+
+}
+.header{
+    width: 80%;
+    padding-top: 200px;
+    color: white;
+    
+}
+.header h2{
+    font-size: 80px ;
+    padding-left: 20px;
+}
+.header p{
+    font-size: 18px;
+    padding-left: 20px;
+    line-height: 20px;
+}
+.header button{
+    padding: 15px 15px ;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 50px;
+    outline: none;
+
+}

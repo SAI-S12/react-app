@@ -1,0 +1,43 @@
+.footer{
+    color: white;
+    background-color: #323232;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 8vw;
+    padding-top: 80px;
+}
+.ft-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr ;
+    gap: 80px;
+}
+.left img{
+    width: 200px;
+}
+.left, .right, .middle{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.middle ul li {
+    list-style:none;
+}
+.right ul{
+    list-style: none;
+}
+.footer h2{
+    color: white;
+}
+.sicons{
+
+    width: 80px;
+    display: flex;
+    gap: 20px;
+}
+.middle ul li{
+    text-transform: capitalize;
+}
